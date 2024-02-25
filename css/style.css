@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background: url("/photoes/small.jpg");
+    min-height: 100vh;
+    /* background-size: 100vw 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#board{
+    /* background: linear-gradient(rgb(240, 182, 140), rgb(227, 244, 141)); */
+    background: linear-gradient(rgb(248, 193, 154), rgb(236, 252, 157));
+
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid rgb(82, 115, 11);
+
+    /* 18 rows aur column ki grid */
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-template-rows: repeat(18, 1fr);
+}
+.head{
+    background-color: red;
+}
+.food{
+    background-color: rgb(70, 6, 130);
+}
+
+
